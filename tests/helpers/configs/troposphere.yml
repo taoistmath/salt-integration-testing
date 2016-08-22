@@ -9,7 +9,7 @@ template_description: 'SIT (Salt Integration Testing) CloudFormation Template'
 
 ## launch configuration configs
 launch_configuration_name: 'sitLaunchConfiguration'
-instance_type: 'c3.4xlarge'
+instance_type: 'c3.large'
 # array of security group IDs. Example is shown
 security_groups:
   - 'sg-78shdjs'
